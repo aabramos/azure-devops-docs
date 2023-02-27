@@ -48,7 +48,7 @@ In this article you'll find:
 
 If your organization uses MSA accounts, then to you must remove users from the organization as you have no other way to prevent access. When you do so, you'll not be able to create a query for work items assigned to the removed user account. To learn more, see [Delete users from Azure DevOps](../accounts/delete-organization-users.md).
 
-If your organization is backed by Azure AD, then you can disable or delete the Azure AD user account while leaving their Azure DevOps account active. In this way, you can continue to query their work item history using their account name.
+If your organization is backed by Azure AD, then if you disable or delete the Azure AD user account, their Azure DevOps account will remain active unless you manually remove it. In this way, you can continue to query their work item history using their account name.
 
 ::: moniker-end 
 
